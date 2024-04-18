@@ -6,7 +6,7 @@ TOGETHER_API_KEY = os.environ.get("TOGETHER_API_KEY")
 
 # Initialize the OpenAI client with the provided API key and base URL
 client = OpenAI(
-    api_key="9001b67c4b57d6d32abfa651976d8fec2a951931bf730de8f1dfa2f823bda7c9",
+    api_key="...",
     base_url="https://api.together.xyz/v1",
 )
 
