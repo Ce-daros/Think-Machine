@@ -1,6 +1,6 @@
 # Think Machine
 
-Think Machine is an AI-powered CoT (Chain of thoughts) focused agent.
+Think Machine is an AI-powered CoT (Chain of thoughts) focused agent **for fun**.
 
 ## Features
 
