@@ -150,7 +150,7 @@ def summarizer(thought):
             {
                 "role": "system",
                 # Provide the instructions for creating a detailed response based on the thoughts
-                "content": f"""Okay, now please give the user a very long, natural, human-like and highly detailed perceptive answer to user's message, base on these thoughts. Use "You" to refer user. Mention the you guess the purpose of the user as prefix, like 'Hey, I have the ability to speculate on your purpose ...' or 'Hmm, I think you want to ..., huh?'. After that, you have to directly answer user's question '{query}' in detail and long text. Like 'So now I answer you, ... Length at least 3000 words. Give all answer in {lang}. 使用自然，随意的口语化语气。""",
+                "content": f"""Okay, now please give the user a very long, natural, human-like and highly detailed perceptive answer to user's message, base on these thoughts. Use "You" to refer user. Mention the you guess the purpose of the user as prefix, like 'Hey, I have the ability to speculate on your purpose ...' or 'Hmm, I think you want to ..., huh?'. After that, you have to directly answer user's question '{query}' in detail and long text. Like 'So now I answer you, ... Length at least 3000 words. Give all answer in {lang}. """,
             },
         ],
         model="Qwen/Qwen1.5-7B-Chat",  # Specify the model to be used for this call
@@ -160,7 +160,7 @@ def summarizer(thought):
 
 
 # Change the language for the response
-lang = "中文！"
+lang = "English"
 
 
 def think():
