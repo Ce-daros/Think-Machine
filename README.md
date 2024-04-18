@@ -64,6 +64,10 @@ You can modify the following variables in the `think.py` script to customize the
 - `now_context`: The initial context between the user and the assistant (default: `"(None)"`).
 - `lang`: The language for the assistant's responses (default: `"English"`).
 
+## Disclaimer
+
+**The "Think Machine" is just a fun little experiment** I whipped up to kill some time. It's NOT a serious tool for production use! I can't be held responsible for any wacky, outrageous, or downright wrong outputs it might spit out. Use at your own risk and amusement! Always take its responses with a grain of salt and rely on your own common sense. The "Think Machine" is purely for entertainment purposes, so sit back, relax, and enjoy the ride!
+
 ## Contributing
 
 Contributions to Think Machine are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request on the GitHub repository.
